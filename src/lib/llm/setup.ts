@@ -1,4 +1,3 @@
-// lib/llm/setup.ts
 import { Ollama } from "@langchain/community/llms/ollama";
 
 export const createLLM = () => {

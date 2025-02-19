@@ -1,4 +1,3 @@
-// pages/api/socket.ts
 import { Server as NetServer } from "http";
 import { Server as SocketIOServer } from "socket.io";
 import { NextApiRequest, NextApiResponse } from "next";

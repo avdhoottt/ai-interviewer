@@ -1,4 +1,3 @@
-// components/MessageList.tsx
 export function MessageList({ messages }) {
   return (
     <div className="space-y-6">

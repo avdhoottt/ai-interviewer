@@ -1,4 +1,3 @@
-// components/ContextForm.tsx
 import { useState } from "react";
 
 export function ContextForm({ onSubmit }) {

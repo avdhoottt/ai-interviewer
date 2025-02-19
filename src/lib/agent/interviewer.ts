@@ -1,4 +1,3 @@
-// lib/agent/interviewer.ts
 import { createLLM } from "../llm/setup";
 
 export class InterviewAgent {
@@ -64,16 +63,12 @@ Keep the feedback concise and actionable.`;
       let feedback = null;
 
       if (response) {
-        // Store the response
         this.memory.push({ role: "candidate", content: response });
 
-        // Generate and store feedback
         const feedbackContent = await this.generateFeedback(response);
         feedback = feedbackContent;
         this.memory.push({ role: "feedback", content: feedbackContent });
       }
-
-      // Generate and store next question
       const question = await this.generateQuestion();
       this.memory.push({ role: "interviewer", content: question });
 
