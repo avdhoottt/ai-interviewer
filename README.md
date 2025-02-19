@@ -3,7 +3,7 @@
 An intelligent interview preparation tool that conducts mock interviews, provides real-time feedback, and helps improve your interview skills using AI.
 
 ![AI Interview Coach Demo](./demo/ai-interviewer-1.png)
-![AI Interview Coach Gif](./demo/ai-interviewer-demo.mp4)
+![AI Interview Coach Gif](./demo/ai-interviewer-demo.gif)
 
 ## 🌟 Features
 
